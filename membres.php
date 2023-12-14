@@ -1,5 +1,7 @@
 
-
+<?php
+include 'names.php';
+?>
 
 
 <!DOCTYPE html>
