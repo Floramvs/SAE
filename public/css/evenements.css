@@ -1,0 +1,9 @@
+.affiche{
+    width:200px;
+    float:left;
+}
+
+.carte{
+    display: inline-block;
+    background-color: rgb(226, 40, 186);
+}
