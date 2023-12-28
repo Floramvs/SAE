@@ -27,7 +27,7 @@ header{
 }
 
 li a:hover{
-  text-color:aqua;
+  color:aqua;
   transition-duration: 0.5s;
 }
 
