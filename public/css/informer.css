@@ -10,14 +10,16 @@
 h1{
     padding: 20px 20px 20px 20px;
     color: blue;
-    background-image: radial-gradient(#d3eFFF, #F1c5e0);
+    background: linear-gradient(0.25turn, #dad8ff, #f1c5e0, #dad8ff);
 }
 
-p{
-    margin: 20px 20px 20px 20px;
-    display: inline-block;
+h2{
     color: blue;
-    width: 53%;
+    font-size:15px;
+    width:56%;
+    display: inline-block;
+    margin-top:10px;
+    margin-bottom:20px;
   }
 
 #logo{
@@ -68,6 +70,14 @@ header{
     display: block;
 }
 
+.mot {
+  display: inline-block;
+  margin: 1%;
+  border-radius: 100%;
+  background:linear-gradient(#dad8ff, #ffffff);
+  padding: 5% 4%;
+}
+
 body,html{
     width:100%;
     height: 100%;
@@ -91,7 +101,7 @@ body,html{
     bottom:-100px;
     width:40px;
     height: 40px;
-    background:linear-gradient(#ffffff, #f1c5e0);;
+    background:linear-gradient(#ffffff, #f1c5e0);
     border-radius:50%;
     opacity:1;
     animation: rise 10s infinite ease-in;

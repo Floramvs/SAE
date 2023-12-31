@@ -21,9 +21,15 @@
     </header>
     <main>
         <h1>Lexique</h1>
-        <p>Pas mal de termes sont en anglais, certains de ces termes ont été traduit (si c'est le cas, nous
-             mettrons la traduction à côté), mais sont moins utilisés que leurs homologues en anglais.</p>
+        <h2>Pas mal de termes sont en anglais, certains de ces termes ont été traduit (si c'est le cas, nous
+             mettrons la traduction à côté), mais sont moins utilisés que leurs homologues en anglais.</h2>
         <section>
+            <div class="deroulant">
+                <button class="menubutton">Menus</button>
+                <div class="menu_lexique">
+                <a href="">Genres et pronoms</a>
+            </div>
+        </section>
             <?php 
             $lexique_genres_pronoms =[
                 'menus' => [
@@ -31,20 +37,18 @@
                     'termes trans' => '',
                     'termes féministes' => '',],
                 'terme'=> [
-                    'Genre',
-                    'Sexe',
-                 'Identité de Genre',]
+                    'Genre'=>'Genre',
+                    'Sexe'=>'Sexe',
+                 'Identité de Genre'=>'Identité <br>de genre',
+                 'Expression de genre'=>'Expression <br>de genre',
+                 'LGBTQIA+'=>'LGBTQIA+',]
                 ];
-                ?>
-        </section>
-        <section>
-        <div class="deroulant">
-  <button class="menubutton">Menus</button>
-  <div class="menu_lexique">
-    <a href="">Genres et pronoms</a>
-  </div>
-</div>
-        </section>
+            ?>
+            <?php 
+            foreach ($lexique_genres_pronoms['terme'] as $definition) : ?>
+                <div class="mot" ><a href=""><p><?= $definition ?></p></a></div>
+            <?php endforeach ?>
+
         <section class="sticky">
         <div class="bubbles">
             <div class="bubble"></div>
