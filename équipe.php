@@ -27,7 +27,6 @@ include 'liste.php';
 
   <section class="sticky">
     <div class="bubbles">
-        <div class="bubble"></div>
       <div class="bubble"></div>
       <div class="bubble"></div>
       <div class="bubble"></div>
@@ -54,34 +53,35 @@ include 'liste.php';
       <div class="bubble"></div>
       <div class="bubble"></div>
       <div class="bubble"></div>
-      <div class="bubble"></div> 
+      <div class="bubble"></div>
+      <div class="bubble"></div>
     </div>
-  </section> 
+  </section>
 
 
 
 
 
   <header>
-    
+
     <div id="menu">
       <nav>
         <ul>
-            <li><a href="#">ACCUEIL</a></li>
-            <li><a href="#">S'INFORMER</a></li>
-            <li><a href="#">NOS EVENEMENTS</a></li>
-            <li><a href="#">CONTACT</a></li>
-            <li><a href="#">QUI SOMMES-NOUS ?</a></li>
+          <li><a href="#">ACCUEIL</a></li>
+          <li><a href="#">S'INFORMER</a></li>
+          <li><a href="#">NOS EVENEMENTS</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">QUI SOMMES-NOUS ?</a></li>
         </ul>
-    </nav>
+      </nav>
     </div>
 
     <div id="title">
       <p></p>
-    </br>
+      </br>
       <h1>Qui sommes-nous ?</h1>
       <p></p>
-    </br>
+      </br>
     </div>
 
   </header>
@@ -89,59 +89,56 @@ include 'liste.php';
 
 
 
-
-</main>
-
-
-
-<?php foreach ($groupe as $eleve) : ?>
-
-  <div class="carte">
-      
-  <a href="liste.html">
-        <?php
-           if (isset($eleve['photo'])) {
-           $photo =  $eleve['photo'];
-          } else {
-          $photo = 'defaut.png';}
- ?>
-
-        <figure class="photo"><img src="./membersimages/<?= $photo ?>" alt="photo">
-        </figure>
-          <div class="infos">
-          <p class="nom"><?= $eleve ['prenom'] ?> <span><?= $eleve ['nom'] ?></span></p>
-          <a href="<?= $eleve ['page_perso'] ?>">Page perso
-          </br>
-          <p></p>
-          </br>
-          <p></p>
-          </div>
-
-  <?php endforeach ?>
-
-  <p></p>
-          </br>
-          <p></p>
-          </br>
-          <p></p>
-          </br>
-
   <main>
 
 
 
+    <?php foreach ($groupe as $eleve) : ?>
+
+      <div class="carte">
 
 
-<footer>
-    <p></p>
-  </br>
-    <h3>Ce site a été produit par des élèves de MMI (IUT Sénart-Fontainbleau)</h3> 
-    <p></p>
-  </br>
+        <?php
+        if (isset($eleve['photo'])) {
+          $photo =  $eleve['photo'];
+        } else {
+          $photo = 'defaut.png';
+        }
+        ?>
+
+        <figure class="photo"><img src="./membersimages/<?= $photo ?>" alt="photo">
+        </figure>
+        <div class="infos">
+          <p class="nom"><?= $eleve['prenom'] ?> <span><?= $eleve['nom'] ?></span></p>
+          <a href="<?= $eleve['page_perso'] ?>">Page perso</a>
+          <!-- </br>
+            <p></p>
+            </br>
+            <p></p> -->
+        </div>
+</div>
+      <?php endforeach ?>
+      
+      <!-- <p></p>
+      </br>
+      <p></p>
+      </br>
+      <p></p>
+      </br> -->
+
+
+
+
+
+
+  </main>
+  <footer>
+
+    <h3>Ce site a été produit par des élèves de MMI (IUT Sénart-Fontainbleau)</h3>
+
     <h3>2023, Tout droits réservés</h3>
-  </br>
-    <p></p>
-</footer>
+
+  </footer>
 
 </body>
 
