@@ -106,7 +106,7 @@ include 'liste.php';
           $photo = 'defaut.png';}
  ?>
 
-        <figure class="photo"><img src="./images/<?= $photo ?>" alt="photo">
+        <figure class="photo"><img src="./membersimages/<?= $photo ?>" alt="photo">
         </figure>
           <div class="infos">
           <p class="nom"><?= $eleve ['prenom'] ?> <span><?= $eleve ['nom'] ?></span></p>
