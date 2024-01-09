@@ -43,8 +43,8 @@ foreach ($nos_evenements as $evenement) : ?>
       <p><?= $evenement['programme']['atelier'] ?></p><br>
       <p><?= $evenement['programme']['jeux'] ?></p><br>
       <p><?= $evenement['programme']['présentation sur la transidentité'] ?></p><br>
-      <p><?= $evenement['cadeaux'] ?></p><br>
-      <p><a href="#merch">(voir plus)</a></p></div>
+      <p><?= $evenement['cadeaux'] ?></p>
+      <a href="#merch">(voir plus)</a></div>
     </div>
   <?php endforeach ?>
     </section>

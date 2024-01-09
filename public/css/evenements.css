@@ -4,9 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
-    font-family:Autour one, Arial, sans-serif;
-    text-decoration: none;
+  
+}
+
+body {
+  text-align: center;
+  font-family:Autour one, Arial, sans-serif;
+ 
 }
 
 #logo{
@@ -14,7 +18,8 @@
   padding:10px;
   float:left;
 }
-
+a { text-decoration: none;
+z-index: 4;}
 header li{
   display: inline-block;
 vertical-align: middle;
@@ -91,7 +96,7 @@ body{
   background:#d3efff;
 }
 .bubbles{
-  position:absolute;
+  /* position:absolute; */
   width:100%;
   height: 100%;
   z-index:0;
