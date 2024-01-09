@@ -2,7 +2,7 @@
 
 $groupe = [
     [
-       'prenom' => 'Amandine',
+       'prenom' => ' Amandine ',
        'nom' => 'Batrikian',
        'photo' => 'amandine.png',
        'page_perso' => 'Amandine/Amandine.php',
@@ -10,7 +10,7 @@ $groupe = [
     [
        'prenom' => 'Célestin',
        'nom' => 'Bouy',
-       'photo' => 'celestin.jpg.png',
+       'photo' => 'célestin.png',
        'page_perso' => 'Célestin/Célestin.php',
     ],
     [
