@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: #C280FF;
+    color: white;
+}
+
+#profil{
+    height: 353px;
+    float:left;
+    margin: 20px 70px 20px 50px;
+}
+
+#infos{
+    margin: 70px 250px 60px 153px;
+    padding:20px;
+    border:2px solid black;
+    color: black;
+}
+
+.titre{
+    font-weight: bold;
+    font-size:30px;
+    margin:5px;
+}
+
+h2{
+    margin: 20px;
+    font-size:30px;
+    color:black;
+}
+
+.affiche{
+    width:170px;
+    margin:10px;
+}
+
+.card {
+    border: 1px solid #bac6d3;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align:center;
+}
+
+.carousel-item:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 0;
+    margin:40px;
+}
+
+.carousel-item {
+    margin-left:18px;
+    scroll-snap-align: start;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3d4852;
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:black;
+}
