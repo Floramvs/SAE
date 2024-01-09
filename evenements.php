@@ -56,8 +56,9 @@ foreach ($nos_evenements as $evenement) : ?>
 
 
     <section>
-      <div id="merch"><p>Merch offerte:</p>
-      <img class="shirt" src="public/images/t-shirt_transcendant.png" alt="T-shirt Transcendant">
+      <div id="merch">
+        <p>Merch offerte:</p>
+        <figure><img class="shirt" src="public/images/t-shirt_transcendant.png" alt="T-shirt Transcendant"></figure>
       </div>
     </section>
 

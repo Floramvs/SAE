@@ -48,17 +48,14 @@ H1{
     float:left;
 }
 
-.shirt {
-  width: 285px;
-  float: right;
-}
+
 
 .carte{
   padding: 20px 20px 20px 20px;
   display: inline-block;
   background: #F1c5e0;
   border-radius: 3%;
-  margin: 43PX;
+  margin: 43px;
   width: 61%;
 }
 
@@ -71,13 +68,17 @@ H1{
   width: 57%;
 }
 
+.shirt{
+  width:200px;
+}
+
 #merch{
   padding: 20px 20px 20px 20px;
-  display: inline-block;
   background: #F1c5e0;
+  display: inline-block;
   border-radius: 3%;
-  margin: 43PX;
-  width: 26%;
+  margin: 43px;
+  width: 61%;
 }
 
 body,html{
