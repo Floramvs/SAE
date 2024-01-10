@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="public/css/evenements.css"> 
 </head>
 <body>
+  <?php include "app/view/common/header.php" ?>
   <main>
       <H1>Nos évènements</H1>
       <section>
@@ -24,7 +25,14 @@ $nos_evenements = [
       <?php
 foreach ($nos_evenements as $evenement) : ?>
     <div class="carte">
-    <figure><img class="affiche" src="public/images//affiches/affiche_1.png" alt="affiche sensibilise"></figure>
+    <?php
+    if (isset($evenement['affiche'])){
+        $affiche = 'public/images/affiche/affiche_1';
+    } else {
+        $affiche = '';
+    }
+    ?>
+    <figure><img class="affiche" src="public/images/<?= $affiche ?>" alt="affiche sensibilise"></figure>
     <div class="infos">
       <p><?=$evenement['intitulé'] ?></p><br>
       <p><?= $evenement['date'] ?></p><br>
@@ -61,3 +69,8 @@ for ($i = 0; $i < $nbBubbles; $i++) {
 echo '</div>';
 ?>
         </section>
+      </main>
+
+      <?php include "app/view/common/footer.php" ?>
+</body>
+</html>
