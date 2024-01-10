@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transcendant</title>
+    <title>Evènements</title>
     <link rel="stylesheet" href="public/css/evenements.css"> 
 </head>
 <body>
-  <?php include "app/view/common/header.php" ?>
+    <?php include "app/view/common/header.php" ?>
+    
   <main>
       <H1>Nos évènements</H1>
       <section>
@@ -15,6 +16,7 @@
 
 $nos_evenements = [
     1 => [
+      "affiche"=> "sensibilise.png",
       "intitulé"=>"Transcendant en visite dans le lycée de la Mare Carré",
       "date"=>"le samedi 20 janvier 2024",
     "programme"=>["atelier"=>"atelier","jeux"=>"jeux : échange tes stéréotypes","présentation sur la transidentité"=>"présentation sur la transidentité"],
@@ -26,13 +28,12 @@ $nos_evenements = [
 foreach ($nos_evenements as $evenement) : ?>
     <div class="carte">
     <?php
-    if (isset($evenement['affiche'])){
-        $affiche = 'public/images/affiche/affiche_1';
-    } else {
-        $affiche = '';
-    }
+           if (isset($evenement['affiche'])) {
+           $affiche =  $evenement['affiche'];
+          } else {
+          $affiche = '';}
     ?>
-    <figure><img class="affiche" src="public/images/<?= $affiche ?>" alt="affiche sensibilise"></figure>
+    <figure><img class="affiche" src="./public/images/affiches/<?=$affiche ?>" alt="affiche sensibilise"></figure>
     <div class="infos">
       <p><?=$evenement['intitulé'] ?></p><br>
       <p><?= $evenement['date'] ?></p><br>
