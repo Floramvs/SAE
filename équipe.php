@@ -46,11 +46,11 @@ echo '</div>';
     <div id="menu">
       <nav>
         <ul>
-          <li><a href="#">ACCUEIL</a></li>
-          <li><a href="#">S'INFORMER</a></li>
-          <li><a href="#">NOS EVENEMENTS</a></li>
-          <li><a href="#">CONTACT</a></li>
-          <li><a href="#">QUI SOMMES-NOUS ?</a></li>
+          <li><a href="accueil.php">ACCUEIL</a></li>
+          <li><a href="informer.php">S'INFORMER</a></li>
+          <li><a href="evenements.php">NOS EVENEMENTS</a></li>
+          <li><a href="contact.php">CONTACT</a></li>
+          <li><a href="équipe.php">QUI SOMMES-NOUS ?</a></li>
         </ul>
       </nav>
     </div>
