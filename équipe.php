@@ -56,7 +56,6 @@ echo '</div>';
     </div>
 
     <div id="title">
-      <p></p>
       </br>
       <h1>Qui sommes-nous ?</h1>
       <p></p>
@@ -98,12 +97,9 @@ echo '</div>';
 </div>
       <?php endforeach ?>
       
-      <!-- <p></p>
-      </br>
       <p></p>
       </br>
       <p></p>
-      </br> -->
 
 
 
