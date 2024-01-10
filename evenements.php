@@ -44,7 +44,7 @@ foreach ($nos_evenements as $evenement) : ?>
       <p><?= $evenement['programme']['jeux'] ?></p><br>
       <p><?= $evenement['programme']['présentation sur la transidentité'] ?></p><br>
       <p><?= $evenement['cadeaux'] ?></p>
-      <p><a href="#merch">(voir plus)</a></p></div>
+      <a href="#merch">(voir plus)</a></div>
     </div>
   <?php endforeach ?>
     </section>
@@ -56,8 +56,9 @@ foreach ($nos_evenements as $evenement) : ?>
 
 
     <section>
-      <div id="merch"><p>Merch offerte:</p>
-      <img class="shirt" src="public/images/t-shirt_transcendant.png" alt="T-shirt Transcendant">
+      <div id="merch">
+        <p>Merch offerte:</p>
+        <figure><img class="shirt" src="public/images/t-shirt_transcendant.png" alt="T-shirt Transcendant"></figure>
       </div>
     </section>
 
