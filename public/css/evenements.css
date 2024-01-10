@@ -1,39 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Autour+One:regular);
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
 }
 
 body {
-  text-align: center;
-  font-family:Autour one, Arial, sans-serif;
- 
-}
+text-align: center;
+font-family:Autour one, Arial, sans-serif;
 
-#logo{
-  width:120px;
-  padding:10px;
-  float:left;
-}
-a { text-decoration: none;
-z-index: 4;}
-header li{
-  display: inline-block;
-vertical-align: middle;
-width: 196px;
-font-weight: bold;
-padding: 21px;
-}
-header{
-  background-color: #d3eFFF;
-}
-
-li a:hover{
-  color:aqua;
-  transition-duration: 0.5s;
 }
 
 section{

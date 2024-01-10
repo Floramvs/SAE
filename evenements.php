@@ -7,19 +7,6 @@
     <link rel="stylesheet" href="public/css/evenements.css"> 
 </head>
 <body>
-<header>
-        <a href="http://localhost/SAE/SAE.php"><img id="logo" src="public/images/logo transcendant.png" alt="logo transcendant"></a>
-        <nav>
-            <ul>
-                <li><a id="accueil" href="accueil.php">Accueil</a></li>
-                <li><a id="membre" href="membres.php">Qui sommes-nous ?</a></li>
-                <li><a id="informer" href="informer.php">S'informer</a></li>
-                <li><a id="evenement" href="evenements.php">Evènements</a></li>
-                <li><a id="contact" href="contact.php">Contact</a></li>
-            </ul>
-        </nav>
-        <?php header('app/view/common/header.php'); ?> 
-    </header>
   <main>
       <H1>Nos évènements</H1>
       <section>
@@ -37,7 +24,7 @@ $nos_evenements = [
       <?php
 foreach ($nos_evenements as $evenement) : ?>
     <div class="carte">
-    <figure><img class="affiche" src="public/images/Sensibilise.png" alt="affiche sensibilise"></figure>
+    <figure><img class="affiche" src="public/images//affiches/affiche_1.png" alt="affiche sensibilise"></figure>
     <div class="infos">
       <p><?=$evenement['intitulé'] ?></p><br>
       <p><?= $evenement['date'] ?></p><br>
