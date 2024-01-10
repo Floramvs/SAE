@@ -170,10 +170,7 @@ footer {
   background-color: #D3EFFF;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  /* margin-top: -16px; */
   font-style: normal;
-  /* display: inline-block; */
-  /* height: 500px; */
 }
 p {
   color:#2B3EA1;
@@ -181,11 +178,13 @@ p {
   font-size: x-large;
 }
 h3 {
-  color:#eba1ce;
+  color: #eba1ce;
   background-color: rgb(162, 230, 255);
-  margin-top: -37px;
-  margin-bottom: 0px;;
+  margin-top: 61px;
+  margin-bottom: -61px;
+  padding: 29px;
 }
 a:-webkit-any-link {
   cursor: pointer;
+  margin-left: 62px;
 }

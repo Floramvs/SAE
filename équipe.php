@@ -25,38 +25,17 @@ include 'liste.php';
 
 <body>
 
-  <section class="sticky">
-    <div class="bubbles">
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-      <div class="bubble"></div>
-    </div>
-  </section>
+<section class="sticky">
+    <?php
+$nbBubbles = 27;
+
+echo '<div class="bubbles">';
+for ($i = 0; $i < $nbBubbles; $i++) {
+    echo '<div class="bubble"></div>';
+}
+echo '</div>';
+?>
+        </section>
 
 
 
@@ -135,7 +114,6 @@ include 'liste.php';
   <footer>
 
     <h3>Ce site a été produit par des élèves de MMI (IUT Sénart-Fontainbleau)</h3>
-
     <h3>2023, Tout droits réservés</h3>
 
   </footer>
