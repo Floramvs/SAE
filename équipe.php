@@ -69,8 +69,6 @@ echo '</div>';
 
   <main>
 
-
-
     <?php foreach ($groupe as $eleve) : ?>
 
       <div class="carte">
@@ -101,12 +99,12 @@ echo '</div>';
       </br>
       <p></p>
 
-
-
-
-
-
   </main>
+
+
+
+
+
   <footer>
 
     <h3>Ce site a été produit par des élèves de MMI (IUT Sénart-Fontainbleau)</h3>
