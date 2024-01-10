@@ -44,9 +44,11 @@
         <h1>Galerie</h1>
         <p></p>
         <img src="Sworkz S35.jpg" />
+        <a href="https://www.youtube.com/watch?v=KmbkuFVuo_c"></a>
         <p></p>
     </br>
         <img src="ArrmaLimitless.jpg" />
+        <a href="https://www.youtube.com/watch?v=qBa84gUVArk"></a>
         <p></p>
     </br>
         <p></p>
