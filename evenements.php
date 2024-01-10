@@ -17,7 +17,8 @@
                 <li><a id="evenement" href="evenements.php">Evènements</a></li>
                 <li><a id="contact" href="contact.php">Contact</a></li>
             </ul>
-        </nav>  
+        </nav>
+        <?php header('app/view/common/header.php'); ?> 
     </header>
   <main>
       <H1>Nos évènements</H1>
@@ -57,41 +58,19 @@ foreach ($nos_evenements as $evenement) : ?>
 
     <section>
       <div id="merch">
-        <p>Merch offerte:</p>
+        <p>T-shirts offerts:</p>
         <figure><img class="shirt" src="public/images/t-shirt_transcendant.png" alt="T-shirt Transcendant"></figure>
       </div>
     </section>
 
-
     <section class="sticky">
-        <div class="bubbles">
-            <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div>
-          <div class="bubble"></div> 
-        </div>
-      </section>
+    <?php
+$nbBubbles = 27;
+
+echo '<div class="bubbles">';
+for ($i = 0; $i < $nbBubbles; $i++) {
+    echo '<div class="bubble"></div>';
+}
+echo '</div>';
+?>
+        </section>
