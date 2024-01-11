@@ -1,8 +1,7 @@
 <?php
-include 'liste.php';
-?>
-
-
+include 'liste.php';?>
+<?php include "app/view/common/header.php" ?>
+<?php include "app/view/common/footer.php" ?>
 
 
 
@@ -43,17 +42,17 @@ echo '</div>';
 
   <header>
 
-    <div id="menu">
-      <nav>
-        <ul>
-          <li><a href="accueil.php">ACCUEIL</a></li>
-          <li><a href="informer.php">S'INFORMER</a></li>
-          <li><a href="evenements.php">NOS EVENEMENTS</a></li>
-          <li><a href="contact.php">CONTACT</a></li>
-          <li><a href="équipe.php">QUI SOMMES-NOUS ?</a></li>
-        </ul>
-      </nav>
-    </div>
+    <<header>
+            <a href="#" class="logo">  </a>
+
+            <ul>
+                <li><a href="accueil.html" class="active">Accueil</a></li>
+                <li><a href="qsn.html">Qui sommes-nous?</a></li>
+                <li><a href="informer.html">S'informer</a></li>
+                <li><a href="event.html">Evenements</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </header>
 
     <div id="title">
       </br>
