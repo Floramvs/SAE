@@ -1,7 +1,5 @@
 <?php
 include 'liste.php';?>
-<?php include "app/view/common/header.php" ?>
-<?php include "app/view/common/footer.php" ?>
 
 
 
@@ -23,6 +21,7 @@ include 'liste.php';?>
 
 
 <body>
+<?php include "app/view/common/header.php" ?>
 
 <section class="sticky">
     <?php
@@ -101,7 +100,7 @@ echo '</div>';
   </main>
 
 
-
+  <?php include "app/view/common/footer.php" ?>
 
 
   <footer>
