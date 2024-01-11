@@ -3,23 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transcendant</title>
+    <title>Evènements</title>
     <link rel="stylesheet" href="public/css/evenements.css"> 
 </head>
 <body>
-<header>
-        <a href="http://localhost/SAE/SAE.php"><img id="logo" src="public/images/logo transcendant.png" alt="logo transcendant"></a>
-        <nav>
-            <ul>
-                <li><a id="accueil" href="accueil.php">Accueil</a></li>
-                <li><a id="membre" href="membres.php">Qui sommes-nous ?</a></li>
-                <li><a id="informer" href="informer.php">S'informer</a></li>
-                <li><a id="evenement" href="evenements.php">Evènements</a></li>
-                <li><a id="contact" href="contact.php">Contact</a></li>
-            </ul>
-        </nav>
-        <?php header('app/view/common/header.php'); ?> 
-    </header>
+    <?php include "app/view/common/header.php" ?>
+    
   <main>
       <H1>Nos évènements</H1>
       <section>
@@ -27,6 +16,7 @@
 
 $nos_evenements = [
     1 => [
+      "affiche"=> "sensibilise.png",
       "intitulé"=>"Transcendant en visite dans le lycée de la Mare Carré",
       "date"=>"le samedi 20 janvier 2024",
     "programme"=>["atelier"=>"atelier","jeux"=>"jeux : échange tes stéréotypes","présentation sur la transidentité"=>"présentation sur la transidentité"],
@@ -37,7 +27,13 @@ $nos_evenements = [
       <?php
 foreach ($nos_evenements as $evenement) : ?>
     <div class="carte">
-    <figure><img class="affiche" src="public/images/Sensibilise.png" alt="affiche sensibilise"></figure>
+    <?php
+           if (isset($evenement['affiche'])) {
+           $affiche =  $evenement['affiche'];
+          } else {
+          $affiche = '';}
+    ?>
+    <figure><img class="affiche" src="./public/images/affiches/<?=$affiche ?>" alt="affiche sensibilise"></figure>
     <div class="infos">
       <p><?=$evenement['intitulé'] ?></p><br>
       <p><?= $evenement['date'] ?></p><br>
@@ -74,3 +70,8 @@ for ($i = 0; $i < $nbBubbles; $i++) {
 echo '</div>';
 ?>
         </section>
+      </main>
+
+      <?php include "app/view/common/footer.php" ?>
+</body>
+</html>
