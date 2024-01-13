@@ -59,17 +59,7 @@ foreach ($nos_evenements as $evenement) : ?>
       </div>
     </section>
 
-    <section class="sticky">
-    <?php
-$nbBubbles = 27;
-
-echo '<div class="bubbles">';
-for ($i = 0; $i < $nbBubbles; $i++) {
-    echo '<div class="bubble"></div>';
-}
-echo '</div>';
-?>
-        </section>
+    <?php include "app/view/common/bulles.php" ?>
       </main>
 
       <?php include "app/view/common/footer.php" ?>

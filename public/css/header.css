@@ -38,8 +38,7 @@ header ul li a {
     border-radius: 20px;
 }
 
-header ul li a:hover,
-{
+header ul li a:hover{
     background: #D3EFFF;
     color: #ffffff;
 }
