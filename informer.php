@@ -15,19 +15,30 @@
         <h2>Pas mal de termes sont en anglais, certains de ces termes ont été traduit (si c'est le cas, nous
              mettrons la traduction à côté), mais sont moins utilisés que leurs homologues en anglais.</h2>
 
-            <section>
-            <div class="deroulant">
-                <button class="menubutton">Menus</button>
-                <?php 
-            foreach ($lexique_genres_pronoms['menus'] as $menu) : ?>
-                <div class="menu_lexique" ><a href="<?= $menu ?>"><?=$menu?></a></div>
-            <?php endforeach ?>
-            </div>
-        </section>
-            <?php 
-            foreach ($lexique_genres_pronoms['terme'] as $definition) : ?>
-                <div class="mot" ><a href=""><p><?= $definition ?></p></a></div>
-            <?php endforeach ?>
+    <section>
+        <div class="deroulant">
+        <button class="menubutton">Menus</button>
+        <?php 
+        foreach ($menus as $menu) : ?>
+        <div class="menu_lexique" ><a href="<?= $menu['lien'] ?>"><?= $menu['catégorie'] ?></a></div>
+        <?php endforeach ?>
+        </div>
+    </section>
+
+        <p id="genres et pronoms">1.Genres et pronoms</p>
+        <?php foreach ($lexique_genres_pronoms as $mot) : ?>
+            <div class="mot"><a href="<?= $mot['lien'] ?>"><?= $mot['terme'] ?></a></div>
+        <?php endforeach ?>
+
+        <p id="termes trans">2.Termes trans</p>
+        <?php foreach ($lexique_termes_trans as $mot) : ?>
+            <div class="mot"><a href="<?= $mot['lien'] ?>"><?= $mot['terme'] ?></a></div>
+        <?php endforeach ?>
+
+        <p id="termes feministes">3.Termes féministes</p>
+        <?php foreach ($lexique_termes_feministes as $mot) : ?>
+            <div class="mot"><a href="<?= $mot['lien'] ?>"><?= $mot['terme'] ?></a></div>
+        <?php endforeach ?>
     </main>
     
 <?php include "app/view/common/bulles.php" ?>
