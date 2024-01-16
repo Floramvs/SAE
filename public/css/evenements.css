@@ -25,6 +25,10 @@ H1{
     margin-top:150px;
 }
 
+main a:hover{
+  color: #353a71;
+}
+
 .affiche{
     width:34%;
     float:left;

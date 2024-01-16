@@ -67,6 +67,10 @@ a{
   text-decoration: none;
 }
 
+.titre{
+    font-weight: bold;
+}
+
 .mot {
   display: inline-block;
   margin: 1%;

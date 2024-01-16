@@ -25,17 +25,17 @@
         </div>
     </section>
 
-        <p id="genres et pronoms">1.Genres et pronoms</p>
+        <p class="titre" id="genres et pronoms">1.Genres et pronoms</p>
         <?php foreach ($lexique_genres_pronoms as $mot) : ?>
             <div class="mot"><a href="<?= $mot['lien'] ?>"><?= $mot['terme'] ?></a></div>
         <?php endforeach ?>
 
-        <p id="termes trans">2.Termes trans</p>
+        <p class="titre" id="termes trans">2.Termes trans</p>
         <?php foreach ($lexique_termes_trans as $mot) : ?>
             <div class="mot"><a href="<?= $mot['lien'] ?>"><?= $mot['terme'] ?></a></div>
         <?php endforeach ?>
 
-        <p id="termes feministes">3.Termes féministes</p>
+        <p class="titre" id="termes feministes">3.Termes féministes</p>
         <?php foreach ($lexique_termes_feministes as $mot) : ?>
             <div class="mot"><a href="<?= $mot['lien'] ?>"><?= $mot['terme'] ?></a></div>
         <?php endforeach ?>
