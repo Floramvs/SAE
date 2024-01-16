@@ -38,19 +38,18 @@ h2 {
     margin-top:20px;
 }
 .menubutton:hover {
-    background-color: blue;
+    background-color: #353a71;
     }
 .deroulant {
-    position: relative;
     float:left;
 }
 .menu_lexique {
     display: none;
-    background-color: skyblue;
+    background-color: #353a71;
     min-width: 200px;
 }
 .menu_lexique a {
-    color: blue;
+    color: #F1C5E0;
     padding: 20px;
     text-decoration: none;
     display: block;
