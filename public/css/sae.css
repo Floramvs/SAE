@@ -1,5 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Autour+One:regular);
+
 main p{
-    margin : 200px;
+    margin : 220px;
+    font-size: 20px;
+    font-family: Autour One;
+    color:#353a71;
 }
 
 span{
