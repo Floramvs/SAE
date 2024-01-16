@@ -29,7 +29,7 @@ h2 {
 }
 
 .menubutton {
-    background-color: skyblue;
+    background-color: #353a71;
     border-radius: 10%;
     color: white;
     border: none;
@@ -46,7 +46,7 @@ h2 {
 .menu_lexique {
     display: none;
     background-color: #353a71;
-    min-width: 200px;
+    min-width: 20px;
 }
 .menu_lexique a {
     color: #F1C5E0;
@@ -56,6 +56,11 @@ h2 {
 }
 .deroulant:hover .menu_lexique {
     display: block;
+}
+
+.menu_lexique a:hover{
+    color:#D3EFFF;
+    border: 1px solid white;
 }
 
 a{
