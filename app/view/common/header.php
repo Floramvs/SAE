@@ -10,6 +10,7 @@
 <a name="haut"></a>
 		<header>
 			<a href="accueil.php"><img id="logo" src="public/images/logo transcendant"></a>
+			<img id="texte" src="public/images/Texte.png">
 			
 			<ul>
 				<li><a href="accueil.php">Accueil</a></li>

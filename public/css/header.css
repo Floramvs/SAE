@@ -40,10 +40,15 @@ header ul li a {
 
 header ul li a:hover{
     background: #D3EFFF;
-    color: #ffffff;
+    color: #353a71;
 }
 
 #logo{
     width:100px;
     padding:19px;
+}
+
+#texte{
+    width: 370px;
+    margin-right: 35%;
 }
