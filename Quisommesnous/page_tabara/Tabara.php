@@ -31,11 +31,14 @@
             </p>
             <p class="titre">Mes centres d'intérêts/Passions</p>
             <p class="texte">
-                Le cinéma<br>
-                La musique<br>
-                La programmation<br>
-                Les chats
-                </p>
+            <ul>
+                <li>Le cinéma</li>
+                <li>La musique</li>
+                <li>La programmation</li>
+                <li>La sociologie</li>
+                <li>Les chats</li>
+            </ul>
+            </p>
         </section>
         <section>
         </section>

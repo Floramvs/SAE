@@ -6,12 +6,11 @@
 }
 
 header {
-    position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: #353a71;
 }
@@ -49,6 +48,7 @@ header ul li a:hover{
 }
 
 #texte{
-    width: 370px;
+    width: 324px;
+    height: 34px;
     margin-right: 35%;
 }
