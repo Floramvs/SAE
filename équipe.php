@@ -71,13 +71,12 @@ include 'liste.php';?>
   </main>
 
 
+
+
+
+  <footer>
+
   <?php include "app/view/common/footer.php" ?>
-
-
-  <!--<footer>
-
-    <h3>Ce site a été produit par des élèves de MMI (IUT Sénart-Fontainbleau)</h3>
-    <h3>2023, Tout droits réservés</h3>-->
 
   </footer>
 
