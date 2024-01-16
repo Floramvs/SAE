@@ -72,8 +72,8 @@
 
     $lexique_termes_feministes = [
         1=>[
-            'terme' => '',
-            'lien' => '',
+            'terme' => 'Ecriture </br>inclusive',
+            'lien' => 'ecriture_inclusive.php',
         ],
     ];
 ?>

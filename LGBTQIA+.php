@@ -9,7 +9,7 @@
 <body>
 <?php include "app/view/common/header.php" ?>
     <main>
-        <p><span>LGBTQIA+:</span></p>
+        <p><span>LGBTQIA+ : </span>Communauté intégrant les personnes lesbiennes(d'où le L), gays (G),bisexuel·les (B),trans (T), queer(Q), intersexués(I), asexués(A) et autres(+)...</p>
     </main>
 <?php include "app/view/common/bulles.php" ?>
 <?php include "app/view/common/footer.php" ?>

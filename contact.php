@@ -18,18 +18,7 @@ $contact = [
 </head>
 
 <body>
-    <header>
-        
-            <nav>
-                <ul>
-                    <li><a href="accueil.php">ACCUEIL</a></li>
-                    <li><a href="informer.php">S'INFORMER</a></li>
-                    <li><a href="evenements.php">NOS EVENEMENTS</a></li>
-                    <li><a href="contact.php">CONTACT</a></li>
-                    <li><a href="membres.php">QUI SOMMES-NOUS ?</a></li>
-                </ul>
-            </nav>
-    </header>
+<?php include "app/view/common/header.php" ?>
         <h1>Formulaire de contact</h1>
 
         <main>
@@ -73,39 +62,8 @@ $contact = [
             </div>
         </section>
         </main>
-    <section class="sticky">
-            <div class="bubbles">
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-            </div>
-        </section>
-
+<?php include "app/view/common/bulles.php" ?>
+<?php include "app/view/common/footer.php" ?>
 </body>
 
 </html>

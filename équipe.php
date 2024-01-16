@@ -13,7 +13,7 @@ include 'liste.php';?>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Membres</title>
-  <link rel="stylesheet" href="membres.css">
+  <link rel="stylesheet" href="public/css/membres.css">
 </head>
 
 
