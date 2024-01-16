@@ -2,4 +2,18 @@ footer{
     background-color: #353a71;
     padding:50px;
     color: beige;
+    
+    list-style:none;
+    text-decoration: none
+}
+
+#foot_right{
+    justify-content: center;
+    font-family: 'poppinsbold', sans-serif;
+    margin: 2px;
+}
+
+#foot_right li{
+    list-style:none;
+    text-decoration: none;
 }

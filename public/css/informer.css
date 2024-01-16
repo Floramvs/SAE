@@ -12,19 +12,21 @@ body{
 
 h1{
     padding: 20px 20px 20px 20px;
-    color: blue;
+    color: #353a71;
+    font-family: Autour One;
     background: linear-gradient(0.25turn, #dad8ff, #f1c5e0, #dad8ff);
     margin-top:100px;
 }
 
-h2{
-    color: blue;
-    font-size:15px;
-    width:56%;
+h2 {
+    color: #353a71;
+    font-size: 15px;
+    font-family: Autour One;
+    width: 56%;
     display: inline-block;
-    margin-top:10px;
-    margin-bottom:70px;
-  }
+    margin-top: 48px;
+    margin-bottom: 70px;
+}
 
 .menubutton {
     background-color: skyblue;
