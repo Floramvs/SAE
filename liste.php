@@ -5,13 +5,13 @@ $groupe = [
        'prenom' => 'Amandine',
        'nom' => 'Batrikian',
        'photo' => 'amandine.png',
-       'page_perso' => 'Quisommesnous/Amandine/Amandine.php',
+       'page_perso' => 'Quisommesnous/amandine/pageperso.php',
     ],
     [
        'prenom' => 'Célestin',
        'nom' => 'Bouy',
        'photo' => 'célestin.png',
-       'page_perso' => 'Quisommesnous/Célestin/Célestin.php',
+       'page_perso' => 'Quisommesnous/MA_PAGE_CELESTIN/Page_perso_Celestin.php',
     ],
     [
        'prenom' => 'Yasmine',
