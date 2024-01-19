@@ -27,13 +27,13 @@ include 'liste.php';?>
 
         <main>
 
-    <h1 id="titre">Qui sommes-nous ?</h1>
+    <h1 id="title">Qui sommes-nous ?</h1>
 
-    <p class="description">Bonjour, Nous sommes un collectif ayant pour but d'éduquer et aider autrui vis à vis des stéréotypes de genres et la transphobie, qui affectent tout le monde d'une manière ou d'une autre au quotidien.</br><span>Comment ?</span>A travers nos visites dans les collèges, lycées et universités et notre lexique varié, ayez accès facilement et rapidement à des renseignements sur l'identité de genre dans un cadre d'écoute et de bienveillance.</p>
+    <p class="description">Bonjour, Nous sommes un collectif ayant pour but d'éduquer et aider autrui vis à vis des stéréotypes de genres et la transphobie, qui affectent tout le monde d'une manière ou d'une autre au quotidien.</br><span>Comment ?</span></br>A travers nos visites dans les collèges, lycées et universités et notre lexique varié, ayez accès facilement et rapidement à des renseignements sur l'identité de genre dans un cadre d'écoute et de bienveillance.</p>
 
     <p class="titre">Signification du nom</p>
 
-    <p class="description">Le nom de notre collectif "Transcendant" reprend le fait que l'on "transcende" les préjugés sur les identités de genre tout en reprenant l'abréviation "trans" dans sa première syllabe. Ce qui fait un super jeu de mot :)</p>
+    <p class="description">Le nom de notre collectif "Transcendant" reprend le fait que l'on "transcende" les préjugés sur les identités de genre tout en reprenant l'abréviation "trans" dans sa première syllabe. Ce qui fait un super jeu de mot :) .</p>
 
     <p class="titre">Signification du logo</p>
 

@@ -28,7 +28,7 @@ $groupe = [
    [
        'prenom' => 'Tabara',
        'nom' => 'Dia',
-       'photo' => 'tabara.jpg.png',
+       'photo' => 'tabara.png',
        'page_perso' => 'Quisommesnous/page_tabara/Tabara.php',
    ],
 ];
