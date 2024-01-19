@@ -8,7 +8,6 @@
 </head>
 <body>
     <footer>
-        <p>Ce site a été réalisé par des étudiants de MMI</p>
         <section id="foot_right">
         <ul>
 				<li><a href="accueil.php">Accueil</a></li>

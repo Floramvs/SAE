@@ -4,32 +4,6 @@
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-  
-  nav {
-    background-color: rgb(162, 230, 255);
-    padding: 5px;
-    text-align: center;
-  }
-
-  nav li {
-    display: inline-block;
-    text-align: center;
-  }
-  
-  nav li a {
-    display: block;
-    color: rgb(255, 255, 255);
-    font-style: none;
-    text-decoration: none;
-    margin: 30px;
-    font-size: x-large;
-    font-style: inherit;
-  }
-
- li:hover {
-    background-color: #1c598f;
-    transition-duration: 0.5s;
-  }
 
   h1{
     text-align: center;

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+main{
   text-align: center;
   font-family:Autour one, Arial, sans-serif;
   text-decoration: none;
@@ -13,7 +13,6 @@ body{
 h1{
     padding: 20px 20px 20px 20px;
     color: #353a71;
-    font-family: Autour One;
     background: linear-gradient(0.25turn, #dad8ff, #f1c5e0, #dad8ff);
     margin-top:100px;
 }
@@ -21,7 +20,6 @@ h1{
 h2 {
     color: #353a71;
     font-size: 20px;
-    font-family: Autour One;
     width: 65%;
     display: inline-block;
     margin-top: 48px;
@@ -69,6 +67,7 @@ a{
 
 .titre{
     font-weight: bold;
+    color: #353a71;
 }
 
 .mot {

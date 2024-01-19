@@ -58,10 +58,9 @@ foreach ($nos_evenements as $evenement) : ?>
         <figure><img class="shirt" src="public/images/t-shirt_transcendant.png" alt="T-shirt Transcendant"></figure>
       </div>
     </section>
+    </main>
 
     <?php include "app/view/common/bulles.php" ?>
-      </main>
-
-      <?php include "app/view/common/footer.php" ?>
+    <?php include "app/view/common/footer.php" ?>
 </body>
 </html>
