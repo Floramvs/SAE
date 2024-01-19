@@ -10,7 +10,7 @@
 	
 	</head>
 	<body>
-		<header>
+		<header id="haut">
             <a href="accueil.php"><img id="logo" src="public/images/bulle2.png"></a>
 			<img id="texte" src="public/images/Texte.png">
 			<ul>
@@ -35,7 +35,7 @@
 				</div>
 			</div>
 
-		<section>
+		<section id="etoiles">
 			<img src="public/images/stars.png" id="stars">
 			<img src="public/images/2.png" id="stars2">
 		</section>
@@ -58,9 +58,9 @@
 							<a href="#haut"><button type="button"> <span></span> RETOURNER EN HAUT </button> </a>
 						</div>
 					</div>
-				</div>
-				
+				</div>		
 		</div>
-		
+        <video src="public/video/Transcendant_Spot_GroupeB.mp4" type="video/mp4"><p>Votre navigateur ne prend pas en compte cette vidéo.</p></video>
+		<?php include "app/view/common/footer.php" ?>
 	</body>
 </html>
