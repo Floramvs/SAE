@@ -47,8 +47,6 @@
   <a href="https://www.instagram.com/talastral/" class="lien">   <img src="Insta.png" alt="le lien vers mon insta" /></a>
   <p id="text-image"> le lien vers mon insta ! (bon je poste pas hyper souvent mais ça va venir !)</p>
 
-</div>
-
 
 
   <section id="films">
@@ -112,8 +110,8 @@
           </figure>
         </li>
        </ul>
-      
-   </section>
+    </section>
+  </div>
  
 
 

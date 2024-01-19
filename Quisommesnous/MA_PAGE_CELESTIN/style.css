@@ -131,7 +131,6 @@ margin:25px;
 
 #contenu {
   margin: auto;
-  width: 80%;
   text-align: center;
 }
 
@@ -173,7 +172,7 @@ footer h3 {
   background: linear-gradient(rgba(15, 7, 61, 0.722),rgb(106, 183, 255));
   color: #82cff3;
   display: inline-block;
-  width: 1450px;
+  width: 95%;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   vertical-align: top;
   margin: 0 15px;
@@ -230,7 +229,7 @@ margin-right: 43px;
 
 #films img {
 
-height: 226px;
+height: 172px;
 display: inline-block;
 
 }
@@ -275,7 +274,7 @@ margin-right: 43px;
 
 #jeux img {
 
-height: 226px;
+height: 172px;
 display: inline-block;
 
 }
