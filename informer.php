@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S'informer</title>
+    <title>Transcendant-S'informer</title>
     <link rel="stylesheet" href="public/css/informer.css">
 </head>
 <body>
