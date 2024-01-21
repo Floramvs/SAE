@@ -4,14 +4,34 @@
 }
 
 body{
-    background-color: #C280FF;
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(background.gif);
+    background-size: contain;
+}
+
+header{
+    background-color:#C280FF;
+    text-align: center;
+}
+
+header li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+header li:hover{
+    background-color: #653f66;
 }
 
 #profil{
     height: 353px;
-    float: left;
     margin:45px;
+    border-radius: 2%;
+    border: 2px solid black;
+    box-shadow: 0 20px 25px;
 }
 
 #infos{
@@ -19,6 +39,17 @@ body{
     padding:20px;
     border:2px solid black;
     color: black;
+    background-color: #653f66;
+    display: flex;
+}
+
+span{
+    font-weight: bold;
+}
+
+#presentation{
+    margin:10px;
+    text-align: end;
 }
 
 .titre{
@@ -27,10 +58,19 @@ body{
     margin:5px;
 }
 
+#recommandations{
+    background-color: #C280FF;
+}
+
 h2{
-    margin: 20px;
+    margin:20px;
+    padding:30px;
     font-size:30px;
     color:black;
+}
+
+main li{
+    list-style: none;
 }
 
 .affiche{
@@ -82,4 +122,10 @@ a{
 
 a:hover{
     color:black;
+}
+
+footer{
+    background-color: #653f66;
+    text-align: center;
+    padding: 30px;
 }

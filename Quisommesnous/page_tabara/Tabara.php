@@ -7,21 +7,32 @@
     <link rel="stylesheet" href="Tabara.css">
 </head>
 <body>
+    <header>
+        <ul>
+            <li><a href="#infos">Présentation</a></li>
+            <li><a href="#recommandations">Recommandations</a></li>
+        </ul>
+    </header>
     <main>
-        <section id="infos">
-            <figure><img id="profil" src="profil.jpg" alt="photo de profil"></figure>
+        <div id="infos">
+            <div>
+            <figure><img id="profil" src="profil.jpg" alt="photo de profil"></figure>    
+            </div>
+            <div id="presentation">
             <p class="titre">Présentation</p>
             <p class="texte">
-                Prénom: Tabara<br>
-                Nom: DIA<br>
-                Age : 18 ans<br>
-                Nationalité : Guadeloupéenne et sénégalaise<br>
-                MBTI : INFP<br>
-                Enneagram : 9w1
+                <ul>
+                    <li><span>Prénom:</span> Tabara</li>
+                    <li><span>Nom:</span> DIA</li>
+                    <li><span>Age:</span> 18 ans</li>
+                    <li><span>Nationalité :</span>Guadeloupéenne et sénégalaise</li>
+                    <li><span>MBTI :</span>INFP</li>
+                    <li><span>Enneagram :</span>9w1</li>
+                </ul>
             </p>
             <p class="titre">Mon parcours</p>
             <p class="texte">
-                Bac général:
+                <span>Bac général:</span>
                 <ul>
                     <li>Numérique et sciences informatiques</li>
                     <li>Mathématiques</li>
@@ -38,12 +49,12 @@
                 <li>La sociologie</li>
                 <li>Les chats</li>
             </ul>
-            </p>
-        </section>
-        <section>
-        </section>
-    </main>
-    <h2>Mes recommandations</h2>
+            </p>    
+            </div>
+            
+</div>
+        <section id="recommandations">
+         <h2>Mes recommandations</h2>
 
     <section class="carousel">
         <ul class="carousel-items">
@@ -89,6 +100,11 @@
                 <img class="affiche" src="hunger games.webp" alt="affiche Hunger Games"/>
             </div></a> 
         </ul>
-    </section>
+    </section>   
+        </section>
+    </main>
+    <footer>
+        <p>Page réalisé par Tabara.</p>
+    </footer>
 </body>
 </html>

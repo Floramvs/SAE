@@ -2,16 +2,40 @@ footer{
     background-color: #353a71;
     color: beige;
     list-style:none;
-    text-decoration: none
+    text-decoration: none;
+    padding: 5px;
+}
+
+.foot{
+    display: inline-block;
+}
+
+#foot_left{
+    width:40%;
 }
 
 #foot_right{
     justify-content: center;
     font-family: 'poppinsbold', sans-serif;
     margin: 2px;
+    text-align: end;
+    width:58%;
 }
 
-#foot_right li{
+footer li{
     list-style:none;
+}
+
+footer a{
     text-decoration: none;
+    color:#fff;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+#foot_bottom{
+    margin-top: 50px;
+    text-align: center;
 }
