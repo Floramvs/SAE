@@ -27,9 +27,6 @@
 				<br>
 				<img id="transcendant" src="public/images/Texte.png">
 				<h1 id="trs">Transcendons les préjugés</h1>
-				<p> 
-					Bienvenue sur le site de Transcendant !<br>
-				</p>
 				<div>
 					<a href="#bas"><button type="button"> <span></span>DÉCOUVRIR</button> </a>
 				</div>
@@ -41,12 +38,9 @@
 		</section>
 		<div class="sec" id="sec">
 			<a name="bas"></a>
-			<h2><u>PARTIE 1</u></h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-			<h2><u>PARTIE 2</u></h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-			</p>	
+			<h2><u>Actualités</u></h2>
+			<a href="evenements.php"><p>Nouvel évènement disponible.</p>
+			<img id="affiche" src="public/images/affiches/sensibilise.png" alt="évènement"></a>	
 			<br>
 			<br>
 			<div class="zoom"> 
@@ -59,8 +53,9 @@
 						</div>
 					</div>
 				</div>		
-		</div>
-        <video src="public/video/Transcendant_Spot_GroupeB.mp4" type="video/mp4"><p>Votre navigateur ne prend pas en compte cette vidéo.</p></video>
+			</div>
+		<video controls src="public/video/Transcendant_Spot_GroupeB.mp4">Le texte à afficher si la vidéo ne se charge pas</video>
+
 		<?php include "app/view/common/footer.php" ?>
 	</body>
 </html>
