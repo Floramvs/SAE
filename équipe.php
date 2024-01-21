@@ -29,7 +29,7 @@ include 'liste.php';?>
 
     <h1 id="title">Qui sommes-nous ?</h1>
 
-    <p class="description">Bonjour, Nous sommes un collectif ayant pour but d'éduquer et aider autrui vis à vis des stéréotypes de genres et la transphobie, qui affectent tout le monde d'une manière ou d'une autre au quotidien.</br><span>Comment atteindre cet objectif?</span></br>A travers nos visites dans les collèges, lycées et universités et notre lexique varié, ayez accès facilement et rapidement à des renseignements sur l'identité de genre dans un cadre d'écoute et de bienveillance.</p>
+    <p class="description">Bonjour, Nous sommes un collectif ayant pour but d'éduquer et aider autrui vis à vis des stéréotypes de genres et la transphobie, qui affectent tout le monde d'une manière ou d'une autre au quotidien.</br><span>Comment atteindre cet objectif?</span></br>A travers nos visites dans les collèges, lycées et universités et notre lexique varié sur le site, ayez accès facilement et rapidement à des renseignements sur l'identité de genre dans un cadre d'écoute et de bienveillance.</p>
 
     <p class="titre">Signification du nom</p>
 
