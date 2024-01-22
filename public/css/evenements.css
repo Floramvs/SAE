@@ -40,7 +40,7 @@ main a:hover{
 .carte{
   padding: 20px 20px 20px 20px;
   display: inline-block;
-  background: #F1c5e0;
+  background: #f1c5e0;
   border-radius: 3%;
   margin: 43px;
   width: 61%;
@@ -49,8 +49,8 @@ main a:hover{
 #à_venir{
   padding: 20px 20px 20px 20px;
   display: inline-block;
-  background: #F1c5e0;
-  border-radius: 3%;
+  background: #f1c5e0;
+  border-radius: 50px;
   margin: 43PX;
   width: 57%;
 }
@@ -61,7 +61,7 @@ main a:hover{
 
 #merch{
   padding: 20px 20px 20px 20px;
-  background: #F1c5e0;
+  background: #f1c5e0;
   display: inline-block;
   border-radius: 3%;
   margin: 43px;
