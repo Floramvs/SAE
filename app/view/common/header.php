@@ -9,12 +9,12 @@
 <body>
 <a name="haut"></a>
 		<header>
-			<a href="accueil.php"><img id="logo" src="public/images/logo transcendant"></a>
+			<a href="accueil.php"><img id="logo" src="public/images/logo_transcendant"></a>
 			<img id="texte" src="public/images/Texte.png">
 			
 			<ul>
 				<li><a href="accueil.php">Accueil</a></li>
-				<li><a href="équipe.php">A propos</a></li>
+				<li><a href="equipe.php">A propos</a></li>
 				<li><a href="informer.php">S'informer</a></li>
 				<li><a href="evenements.php">Evenements</a></li>
 				<li><a href="contact.php">Contact</a></li>
