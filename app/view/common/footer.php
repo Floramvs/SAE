@@ -10,7 +10,7 @@
     <footer>
         <div id="foot_left" class="foot">
             <h2>Nous Contacter</h2>
-            <p>Si vous avez des propositions de mots sur l'identité de genres dont vous souhaiteraient connaître la définition ou si vous souhaitez une écoute, n’hésitez pas à nous contacter :<br>
+            <p>Si vous avez des propositions de mots sur l'identité de genre dont vous souhaiteriez connaître la définition ou une écoute, n’hésitez pas à nous contacter :<br>
             <span>Adresse :</span></br> 240 rue de la Motte</br>77550 Moissy-Cramayel</p>
         </div>
         <div id="foot_right" class="foot">

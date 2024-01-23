@@ -4,6 +4,7 @@ footer{
     list-style:none;
     text-decoration: none;
     padding: 5px;
+    font-size: 12px;
 }
 
 .foot{
@@ -12,6 +13,7 @@ footer{
 
 #foot_left{
     width:40%;
+    text-align: left;
 }
 
 #foot_right{

@@ -63,6 +63,10 @@ form {
     width: 100%;
     padding: 0.625rem;
     resize: vertical;
+    color: #8fb5cd;
+    opacity: 1;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
   }
   
   .submit-button {
@@ -70,10 +74,11 @@ form {
     width: 100%;
     padding: 0.75rem;
     background: #ffffff;
-    color: inherit;
-    border-radius: 2px;
     cursor: pointer;
-    font-family: 'Poppins';
+    color: #8fb5cd;
+    opacity: 1;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
   }  
 
   .maps{

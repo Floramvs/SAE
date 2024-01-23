@@ -104,7 +104,7 @@
         </section>
     </main>
     <footer>
-        <p>Page réalisé par Tabara.</p>
+        <p>Page réalisée par Tabara.</p>
     </footer>
 </body>
 </html>

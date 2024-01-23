@@ -16,8 +16,8 @@ $groupe = [
     [
        'prenom' => 'Yasmine',
        'nom' => 'Oulmi',
-       'photo' => 'defaut.png',
-       'page_perso' => 'Quisommesnous/MONSITE/accueil.php',
+       'photo' => 'yasmine.png',
+       'page_perso' => 'Quisommesnous/MONSITE/yasmine.php',
    ],
    [
        'prenom' => 'Bryan',
