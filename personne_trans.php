@@ -10,7 +10,7 @@
 <?php include "app/view/common/header.php" ?>
     <main>
         <p><span>Personne trans:</span> Une personne trans est une personne qui n’est pas du genre qu’on lui a assigné à la naissance. l’adjectif trans est le diminutif de transgenre.</p>
-        <p>Contraire de trans : </p><a href="personne_cis.php">Personne cis</a>
+        <p>Contraire de trans : <a href="personne_cis.php">Personne cis</a></p>
     </main>
 <?php include "app/view/common/bulles.php" ?>
 <?php include "app/view/common/footer.php" ?>

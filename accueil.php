@@ -12,7 +12,7 @@
 			$menus = [
 				'menu_haut' => [
 					'Accueil' => 'accueil.php',
-					'A propos'=> 'équipe.php',
+					'A propos'=> 'equipe.php',
 					'S\'informer' => 'informer.php',
 					'Évènements' => 'evenements.php',
 					'Contact' => 'contact.php',
