@@ -23,7 +23,7 @@
          ],
         3=>[
             'terme' => 'Identité <br>de genre',
-            'lien' => 'identité_de_genre.php',
+            'lien' => 'identite_de_genre.php',
         ],
         4=>[
             'terme' => 'Expression <br>de genre',
