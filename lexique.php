@@ -19,7 +19,7 @@
         ],
         2=>[
             'terme' => 'Sexe',
-            'lien' => 'app/wiki/sexe.php',
+            'lien' => 'sexe.php',
          ],
         3=>[
             'terme' => 'Identité <br>de genre',

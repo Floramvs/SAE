@@ -10,7 +10,7 @@ $groupe = [
     [
        'prenom' => 'Célestin',
        'nom' => 'Bouy',
-       'photo' => 'célestin.png',
+       'photo' => 'celestin.png',
        'page_perso' => 'Quisommesnous/MA_PAGE_CELESTIN/Page_perso_Celestin.php',
     ],
     [
