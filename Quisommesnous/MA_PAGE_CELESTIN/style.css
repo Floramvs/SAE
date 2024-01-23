@@ -13,11 +13,9 @@ body {
 
 nav {
   position: sticky;
-  /* width: 100%; */
   padding: 44px;
   background-color: #333;
   top:0;
-  /* z-index: 10; */
 }
 
 ul {
@@ -35,17 +33,7 @@ nav a {
   margin: 0 10px;
   text-decoration: none;
   text-transform: uppercase;
-  /* position: relative; */
 }
-/* nav a::after {
-  content: "";
-  position: absolute;
-  bottom: -2px;
-  display: block;
-  width: 100%;
-  height: 1px;
-  background: #4e6681;
-} */
 
 nav a:hover{
   border-bottom:solid 1px whitesmoke  ;
@@ -67,6 +55,8 @@ nav a:hover{
   background-position: center;
   padding: 0 50px;
   position: relative;
+
+  
 }
 
 .home h1 {
@@ -76,20 +66,38 @@ nav a:hover{
   text-transform: uppercase;
   color: #01a8f6;
   font-weight: 900;
-
+  animation: pulsate 1.5s infinite alternate;  
   
   color: #fff;
-  text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #01a8f6,
-    0 0 82px #01a8f6,
-    0 0 92px #01a8f6,
-    0 0 102px #01a8f6,
-    0 0 151px #01a8f6;
+}
+        
+@keyframes pulsate {
+    
+  100% {
 
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 40px #01a8f6,
+      0 0 80px #01a8f6,
+      0 0 90px #01a8f6,
+      0 0 100px #01a8f6,
+      0 0 150px #01a8f6;
+  
+  }
+  
+  0% {
 
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 10px #01a8f6,
+    0 0 45px #01a8f6,
+    0 0 55px #01a8f6,
+    0 0 70px #01a8f6,
+    0 0 80px #01a8f6;
+
+  }
 
 
 }
@@ -101,14 +109,7 @@ h2 {
   font-weight: 900;
 padding-bottom: 20px;
 color: #fff;
-  text-shadow:
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #01a8f6,
-    0 0 82px #01a8f6,
-    0 0 92px #01a8f6,
-    0 0 102px #01a8f6,
-    0 0 151px #01a8f6;
+animation: pulsate 1.5s infinite alternate; 
 
 
 }
@@ -144,15 +145,7 @@ footer {
     bottom:0;  
     width:100%;
     color: #fff;
-  text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #01a8f6,
-    0 0 82px #01a8f6,
-    0 0 92px #01a8f6,
-    0 0 102px #01a8f6,
-    0 0 151px #01a8f6;
+  animation: pulsate 1.5s infinite alternate; 
 
   
  }
@@ -182,6 +175,16 @@ footer h3 {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+   
+  border: 0.2rem solid #fff;
+  box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #0400ff,
+            0 0 0.8rem #0400ff,
+            0 0 2.8rem #0400ff,
+            inset 0 0 1.3rem #0400ff; 
+            
+          
 
 }
 
@@ -195,15 +198,7 @@ font-size: 17px;
   margin: 30px;
 font-size: 25px;
 color: #fff;
-  text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #01a8f6,
-    0 0 82px #01a8f6,
-    0 0 92px #01a8f6,
-    0 0 102px #01a8f6,
-    0 0 151px #01a8f6;
+animation: pulsate 1.5s infinite alternate; 
 
 
 }
@@ -241,15 +236,7 @@ display: inline-block;
   margin: 30px;
 font-size: 25px;
 color: #fff;
-  text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #01a8f6,
-    0 0 82px #01a8f6,
-    0 0 92px #01a8f6,
-    0 0 102px #01a8f6,
-    0 0 151px #01a8f6;
+animation: pulsate 1.5s infinite alternate; 
 
 }
 

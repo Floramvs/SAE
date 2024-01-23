@@ -7,12 +7,12 @@
 		<link rel="stylesheet" href="public/css/accueil.css">
 	</head>
 	<body>
-		<?php
+	<?php
 			$page_courante = 'Accueil';
 			$menus = [
 				'menu_haut' => [
 					'Accueil' => 'accueil.php',
-					'Qui sommes-nous ?'=> 'équipe.php',
+					'A propos'=> 'équipe.php',
 					'S\'informer' => 'informer.php',
 					'Évènements' => 'evenements.php',
 					'Contact' => 'contact.php',
@@ -28,7 +28,8 @@
 				<?php endforeach; ?>
 			</ul>
 		</header>
-
+		<main>
+		
 		<div class="content">
 			<img id="bulle" src="public/images/bulle2.png">
 			<br>
@@ -61,8 +62,11 @@
 				</div>
 			</div>		
 		</div>
-		<video controls src="public/video/Transcendant_Spot_GroupeB.mp4">Le texte à afficher si la vidéo ne se charge pas</video>
+		<video controls src="public/video/Transcendant_Spot_GroupeB.mp4">Le texte à afficher si la vidéo ne se charge pas</video>	
+		</main>
+		
 
+		<?php include "app/view/common/bulles.php" ?>
 		<?php include "app/view/common/footer.php" ?>
 	</body>
 </html>
